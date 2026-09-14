@@ -1,3 +1,7 @@
 node_modules/
 *.js
 *.js.map
+
+# Local secret material must never be committed.
+config/wallet-secrets.json
+config/monitor-secrets.json
